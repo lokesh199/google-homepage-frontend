@@ -1,0 +1,81 @@
+li , button
+{
+    display:inline;
+    border:1px solid black;
+    margin:5px;
+}
+.home-page
+{
+    border:1px solid black;
+}
+.div1
+{
+    border:1px solid black;
+}
+
+.div2
+{
+    border:1px solid black;
+    margin-top: 9em;
+}
+
+.search-bar-div
+{
+    border:1px solid black;
+    margin-top: 2em;
+}
+
+.search-bar
+{
+    border:1px solid black;
+    width: 30em;
+    height:2.5em;
+}
+
+.div2 img
+{
+    height:5.5em;
+}
+
+.div3
+{
+    border:1px solid black;
+}
+
+.two-buttons-div
+{
+    margin-top:1em;
+    border:1px solid black;
+}
+
+.two-buttons-div button
+{
+    border:1px solid black;
+    background:rgb(240, 240, 240);
+}
+
+.google-image
+{
+    border:1px solid black;
+}
+.div4
+{
+    border:1px solid black;
+}
+.languages
+{
+    border:1px solid black;
+    margin-top: 1em;
+}
+.div5
+{
+    border:1px solid black;
+}
+.div5-upper-part
+{
+    height:3em;  
+}
+.div5-upper-part text
+{
+    vertical-align:middle;
+}
