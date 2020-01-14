@@ -1,12 +1,18 @@
-li , button
+li, button
 {
     display:inline;
     border:1px solid black;
     margin:5px;
+    
+}
+.div1 a,button
+{
+    color:rgb(27, 27, 27);
 }
 .home-page
 {
     border:1px solid black;
+    position:relative;
 }
 .div1
 {
@@ -69,13 +75,54 @@ li , button
 }
 .div5
 {
+    padding:3px;
     border:1px solid black;
+    position:fixed;
+    bottom:0;
+    width:100%;
 }
 .div5-upper-part
 {
     height:3em;  
+    border:1px solid black;
+    padding:3px;
+    background:rgb(236, 236, 236);
+}
+.div5-lower-part
+{
+    
+    border:1px solid black;
+    padding:3px;
+    height:3em;
+    display:flex;
+    background:rgb(236, 236, 236);
+}
+.div5-lower-part-left
+{
+    border:1px solid black;
+    padding:3px;
+    flex:1;
+}
+.div5-lower-part-right
+{
+    border:1px solid black;
+    padding:3px;
+    flex:1;
 }
 .div5-upper-part text
 {
-    vertical-align:middle;
+
+    border:1px solid black;
+    color:rgb(78, 78, 78);
+    
+}
+.div5-lower-part-left a
+{
+    border:1px solid black;
+    color:rgb(78, 78, 78);
+}
+.div5-lower-part-right a
+{
+    color:rgb(78, 78, 78);
+    border:1px solid black;
 }
