@@ -1,8 +1,9 @@
 li, button
 {
     display:inline;
-    border:1px solid black;
+    /* border:1px solid black; */
     margin:5px;
+    padding:5px;
     
 }
 .div1 a,button
@@ -11,31 +12,37 @@ li, button
 }
 .home-page
 {
-    border:1px solid black;
+    /* border:1px solid black; */
     position:relative;
 }
 .div1
 {
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 
 .div2
 {
-    border:1px solid black;
+    /* border:1px solid black; */
     margin-top: 9em;
 }
 
 .search-bar-div
 {
-    border:1px solid black;
+    /* border:1px solid black; */
     margin-top: 2em;
 }
 
 .search-bar
 {
-    border:1px solid black;
+    border:1px solid rgb(230,230,230);
     width: 30em;
     height:2.5em;
+    border-radius: 20px;
+}
+
+.search-bar:hover
+{
+    box-shadow:5px 5px 10px rgb(223, 223, 223);
 }
 
 .div2 img
@@ -45,53 +52,55 @@ li, button
 
 .div3
 {
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 
 .two-buttons-div
 {
     margin-top:1em;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 
 .two-buttons-div button
 {
-    border:1px solid black;
+    /* border:1px solid black; */
     background:rgb(240, 240, 240);
 }
 
 .google-image
 {
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 .div4
 {
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 .languages
 {
-    border:1px solid black;
+    /* border:1px solid black; */
     margin-top: 1em;
 }
 .div5
 {
     padding:3px;
-    border:1px solid black;
+    /* border:1px solid black; */
     position:fixed;
     bottom:0;
     width:100%;
 }
 .div5-upper-part
 {
+    border:1px solid rgb(225, 225, 225);
+    display:flex;
     height:3em;  
-    border:1px solid black;
+    /* border:1px solid black; */
     padding:3px;
     background:rgb(236, 236, 236);
 }
 .div5-lower-part
 {
-    
-    border:1px solid black;
+    border:1px solid rgb(225, 225, 225);
+    /* border:1px solid black; */
     padding:3px;
     height:3em;
     display:flex;
@@ -99,30 +108,42 @@ li, button
 }
 .div5-lower-part-left
 {
-    border:1px solid black;
+    /* border:1px solid black; */
     padding:3px;
+    display:flex;
+    justify-content:left;
     flex:1;
 }
 .div5-lower-part-right
 {
-    border:1px solid black;
+    /* border:1px solid black; */
     padding:3px;
+    display:flex;
+    justify-content:right;
     flex:1;
 }
 .div5-upper-part text
 {
-
-    border:1px solid black;
+    
+    /* border:1px solid black; */
+    padding-top: 0.3em;
+    padding-left:2em;
     color:rgb(78, 78, 78);
     
 }
 .div5-lower-part-left a
 {
-    border:1px solid black;
+    /* border:1px solid black; */
+    padding-top: 0.3em;
     color:rgb(78, 78, 78);
+    padding-left:2em;
 }
 .div5-lower-part-right a
 {
+    
+    /* border:1px solid black; */
     color:rgb(78, 78, 78);
-    border:1px solid black;
+    /* border:1px solid black; */
+    padding-right: 2em;
+    padding-top: 0.3em;
 }
